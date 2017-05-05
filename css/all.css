@@ -67,7 +67,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { margin: 0 0 60px; background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider { margin: 0 0 60px; background: #333; border: 4px solid #333; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
 .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 300px; }
 .flexslider .slides { zoom: 1; }
@@ -241,7 +241,7 @@ h1 span {
 	top: -2px
 }
 section {
-	background-color: #fff;
+	background-color: #222;
 	position: relative;
 	padding-top: 60px;
 	z-index: 4;
@@ -252,7 +252,7 @@ a:active,
 a:focus,
 a:visited,
 a:link {
-	color: #151515;
+	color: #333333;
 	text-decoration: none;
 }
 [class*="col-"] {
@@ -635,7 +635,7 @@ a.custom-button span {
 	display: block;
 	padding:0px 10px;
 	margin:23px 0px;
-	color: #151515;
+	color: #ffffff;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -647,7 +647,7 @@ a.custom-button span {
 }
 .navbar .nav li.nolink {
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	color: #151515;
+	color: #ffffff;
 	font-weight: 400;
 	text-shadow: none;
 	letter-spacing: 1px;
@@ -680,16 +680,16 @@ nav i.icon-basic-eye {
 }
 #blog-post .navbar-inner {
 	background-color: #fff;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(90,90,90,.9);
 }
 .lightnav .navbar-inner.lightnav-alt .nav > li > a,
 .lightnav .navbar-inner.lightnav-alt .learnmore {
-	color: #151515;
+	color: #ffffff;
 }
 /* Changes nav background color to white on scroll */
 .navbar-inner.lightnav-alt {
-	background-color: #fff;
-    background-color: rgba(255,255,255,.9)
+	background-color: #333;
+    background-color: rgba(15,15,15,.9)
 }
 @media (max-width: 1024px) {
 	.navbar-inner.lightnav-alt {
@@ -745,7 +745,7 @@ nav i.icon-basic-eye {
 	padding-right: 74px;
 	top: 14px;
 	z-index: 1060;
-	color: #151515;
+	color: #ffffff;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -806,7 +806,7 @@ button.navbar-toggle .icon-bar {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	background-color: #151515;
+	background-color: #ffffff;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease .2s;
 	-o-transition: all ease .2s;
@@ -835,6 +835,8 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	-moz-opacity: 1;
 	opacity: 1;
 }
+
+
 .sb-slidebar {
 	background-color: #151515; /* Background colour. */
 	color: #666; /* Text colour. */
