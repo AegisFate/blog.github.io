@@ -130,7 +130,7 @@ h1 span {
 	top: -2px
 }
 section {
-	background-color: #222;
+	background-color: #ddd;
 	position: relative;
 	padding-top: 60px;
 	z-index: 4;
@@ -171,7 +171,7 @@ blockquote footer {
 	margin: 40px 0;
 }
 .row {
-	margin-bottom: 0
+	margin-bottom: 0px center;
 }
 .container {
   padding-right: 20px;
@@ -476,8 +476,8 @@ a.custom-button span {
 	position: absolute;
 	display: block;
 	top: 50%;
-	margin-top: -15px;
-	left: 30px;
+	margin-top:-35px;
+	left: 80px;
 }
 .logo img {
 	display:block;
@@ -523,7 +523,7 @@ a.custom-button span {
 .navbar .nav > li > a {
 	display: block;
 	padding:0px 10px;
-	margin:23px 0px;
+	margin:15px 0px;
 	color: #ffffff;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
@@ -596,7 +596,7 @@ nav i.icon-basic-eye {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:active {
-	color:#777;
+	color:#888;
 }
 @media only screen and (max-width: 1024px) {
 
@@ -728,7 +728,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 
 .sb-slidebar {
 	background-color: #151515; /* Background colour. */
-	color: #666; /* Text colour. */
+	color: #999; /* Text colour. */
 	font-weight: 700;
 	font-size: 14px;
 	cursor: default;
@@ -737,7 +737,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	overflow-x: hidden;
 }
 .sb-slidebar a {
-	color: #666; /* Link colour. */
+	color: #ddd; /* Link colour. */
 	text-decoration: none;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -774,7 +774,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	display: inline-block;
 	font-weight: 600;
 	font-style: normal;
-	color: #666;
+	color: #ddd;
 	cursor: pointer;
 	line-height: 20px;
 	padding: 3px 10px; /* Creates an even padding the same size as your font. */
@@ -860,7 +860,7 @@ span.sb-caret { /* Caret Down */
 	padding: 14px;
 }
 #hero p {
-	color: #333;
+	color: #ddd;
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-size: 18px;
 	display: inline-block;
@@ -923,7 +923,7 @@ span.sb-caret { /* Caret Down */
 }
 #videohero p,
 #fallback p {
-	color: #333;
+	color: #ddd;
 	font-family: 'Georgia', serif, 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-size: 18px;
 	font-style: italic;
@@ -1054,7 +1054,7 @@ span.sb-caret { /* Caret Down */
 }
 #blog .pager li > a {
 	font-family: 'Montserrat', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	color: #151515;
+	color: #dddddd;
 	font-weight: 400;
 }
 /* Subscribe section, (blog.html) */
@@ -1181,7 +1181,7 @@ span.sb-caret { /* Caret Down */
 	padding: 20px 0;
 	font-size: 40px;
 	display: block;
-	color: #151515;
+	color: #ffffff;
 }
 #blog-post .related-left a,
 #blog-post .related-left img {
@@ -1265,7 +1265,7 @@ span.sb-caret { /* Caret Down */
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-size: 14px;
 	font-style: italic;
-	color: #151515;
+	color: #ffffff;
 }
 #blog-post .sharrre{
 	display: inline-block;
@@ -1368,7 +1368,7 @@ span.sb-caret { /* Caret Down */
 	background-color: #F7F7F7;
 }
 #comments-tb .well p {
-	color: #666;
+	color: #888;
 }
 #comments-tb .form-control {
 	-webkit-box-shadow: none;
@@ -1475,7 +1475,7 @@ hr.byline-accent {
 		text-transform: uppercase;
 		font-size: 12px;
 		text-align: left;
-		color: #151515;
+		color: #dddddd;
 	}
 	#featured a.meta {
 		padding-left: 25px;
@@ -1540,7 +1540,7 @@ hr.byline-accent {
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-style: italic;
 	font-size: 20px;
-	color: #333;
+	color: #ddd;
 }
 
 #statement i {
@@ -1996,7 +1996,7 @@ ul.page-nav i {
 	position: relative;
 }
 #pagetabs span.badge.jobs {
-	background-color: #151515;
+	background-color: #777777;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -2394,7 +2394,7 @@ ul.page-nav i {
 #faq .panel-faq .panel-heading .panel-title span {
     font-size: 13px;
     font-weight: normal;
-    color: #151515
+    color: #dddddd
 }
 #faq .panel-default>.panel-heading {
 	background-color: #fff;
@@ -2587,7 +2587,7 @@ ul.page-nav i {
 }
 #projects .filter-item a {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	color: #151515;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -2613,7 +2613,7 @@ ul.filters li p {
 	display: block;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	padding: 0 10px 3px;
-	color: #151515;
+	color: #dddddd;
 	margin-bottom: 0;
 	border-bottom: 3px solid transparent;
 	border-top: 3px solid transparent;
@@ -2852,7 +2852,7 @@ ul.filters li p:hover {
 	margin: 0 auto;
 }
 #contact .well p {
-	color: #666;
+	color: #888;
 	font-family: 'Georgia', serif;
 	font-style: italic;
 	font-size: 14px;
@@ -2864,7 +2864,7 @@ ul.filters li p:hover {
 	padding: 27px;
 	font-family: 'Georgia', serif;
 	font-style: italic;
-	color: #111;
+	color: #ddd;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -2889,7 +2889,7 @@ ul.filters li p:hover {
 	padding-left: 24px;
 	font-size: 14px;
 	line-height: 28px;
-	color: #333;
+	color: #ddd;
 }
 #contact .message-us li {
 	font-family: 'Georgia', serif;
