@@ -80,9 +80,9 @@
                 <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
                 <ul class="sb-submenu">
                     
-                        <li><a href="/" target="_BLANK" class="animsition-link">XXX1</a></li>
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
                     
-                        <li><a href="/" target="_BLANK" class="animsition-link">XXX2</a></li>
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
                     
                 </ul>
             </li>
@@ -106,7 +106,20 @@
             <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
             <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
         </ul>
+		 <ul class="sb-menu myprofile">
+            <li><a href="http://www.sony.net/united/clock/" class="animsition-link"><img src="/img/profile.png" alt="" height="120px;"/></a></li>
+			<li class="nolink">------------------</li>
+			<li><a href="https://www.pixiv.net/member.php?id=3278488" class="animsition-link"><img src="/img/pixiv.png" alt="" height="15px;"/></a></li>
+			<li class="nolink">------------------</li>
+			<li><a href="http://weibo.com/inamberclad/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" class="animsition-link"><img src="/img/weibo.png" alt="" height="15px;"/></a></li>
+			<li class="nolink">------------------</li>
+			<li><a href="https://store.playstation.com/#!/zh-hans-cn/" class="animsition-link"><img src="/img/ps.png" alt="" height="15px;"/></a></li>
+			<li class="nolink">------------------</li>
+			<li><a href="http://store.steampowered.com/"><img src="/img/steam.png" alt="" height="15px;"/></a></li>
+			<li class="nolink">------------------</li>
+        </ul>
     </div>
+	 
     
     <!-- ============================ END Off-canvas navigation =========================== -->
 
@@ -130,24 +143,12 @@
                     <!-- Info-bar -->
                     <nav>
                         <ul class="nav">
-                            <li><a href="/" class="animsition-link">AESTHETIC HELIX.</a></li>
-                            <li class="nolink"><span>Always </span>Creative.</li>
-                            
-                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
-                            
-                            
-                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
-                            
-                            
-                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
-                            
-                            
-                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
-                            
-                            
-                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
-                            
-                            <li class="nolink"><span>Welcome!</span></li>
+                            <li><a href="/" class="animsition-link"><img src="/img/logo2.gif" alt="Logo2" height="30px;"/></a></li>
+                            <li><a href="/" class="animsition-link"><img src="/img/logo4.png" alt="Logo4" height="30px;"/></a></li>
+							<li><a href="/" class="animsition-link"><img src="/img/logo5.png" alt="Logo5" height="30px;"/></a></li>
+							<li><a href="/" class="animsition-link"><img src="/img/logo6.png" alt="Logo6" height="30px;"/></a></li>
+							<li><a href="/" class="animsition-link"><img src="/img/logo7.png" alt="Logo7" height="30px;"/></a></li>
+						    <li class="nolink"><span>Always </span>Creative.</li>
                         </ul>
                     </nav>
                     <!--// Info-bar -->
@@ -176,11 +177,11 @@
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
                         
-                        <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
+                        <h2>Fear not the dark, my friend.And let the feast begin.</h2>
                         <p></p>
                         
                         <h2></h2>
-                        <p>每一个不曾起舞的日子都是对生命的辜负。</p>
+                        <p></p>
                         
 
                     </div>
@@ -239,7 +240,7 @@
                 <p>
                     &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Spike Wang. All Rights Reserved.
                 </p>
-                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+                <p>Power By Hexo | Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran | Customized By AegisFate</a></p>
             </div>
             <div class="social">
                 <ul>
@@ -286,6 +287,23 @@
 <script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
 <script src="/js/scripts.js"></script><!-- Theme scripts -->
 
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
 
 <!-- Initiate flexslider plugin -->
 <script type="text/javascript">
